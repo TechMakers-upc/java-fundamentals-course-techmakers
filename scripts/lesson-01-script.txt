@@ -1,0 +1,14 @@
+LECCIÓN 1 - Introducción a Java y primer programa - 06:00
+
+Objetivo: explicar qué es programar y ejecutar por primera vez System.out.println.
+
+00:00-00:45 | CAPTURA: Título limpio «Tu primera instrucción en Java». NARRACIÓN: Programar es escribir instrucciones que la computadora sigue en orden. Como una receta: cada paso indica qué hacer. Hoy mostraremos dos mensajes y los cambiaremos.
+00:45-01:30 | EN PANTALLA: Una lista corta de ejemplos: juegos, aplicaciones y herramientas. NARRACIÓN: Java es un lenguaje de programación. Una instrucción en Java se escribe siguiendo reglas, igual que una oración.
+01:30-02:30 | DEMO: Abrir JDoodle u OnlineGDB en un navegador. Mostrar el editor y el botón Run; no instalar software. Copiar el código inicial de la lección 01.
+02:30-03:45 | DEMO: Explicar public class Main, main y System.out.println sin memorizar toda la sintaxis: «Main es el punto de partida; println muestra texto». Ejecutar.
+03:45-04:40 | DEMO: Añadir un segundo println. Explicar comillas, paréntesis y punto y coma. Mostrar el cambio en la salida.
+04:40-05:30 | PAUSA DE PRÁCTICA: Dejar 20-30 segundos para cambiar el mensaje por su afición. Recordar que puede volver a ejecutarlo cuantas veces quiera.
+05:30-06:00 | CIERRE: «Ya hiciste que una computadora siga tus instrucciones. En la siguiente clase guardaremos información en variables».
+
+TEXTO EN PANTALLA: Instrucción / Texto / Run / Resultado.
+VERIFICACIÓN: Se ejecutan dos mensajes y se ve la salida.

@@ -1,0 +1,34 @@
+MATRIZ DE REQUISITOS Y RÚBRICA DEL TR
+
+RÚBRICA (20 PUNTOS)
+C01 Estructura y progresión: 4 puntos. Cada video reutiliza contenidos del anterior y contribuye al programa final.
+C02 Exactitud técnica: 4 puntos. Código Java correcto, clases, parámetros, validaciones y resultados probados.
+C03 Atracción y claridad para adolescentes: 5 puntos. Ejemplos cotidianos, lenguaje sencillo, demostraciones paso a paso, pausas activas.
+C04 Calidad de grabación: 4 puntos. Voz nítida, texto legible, foco y edición cuidada.
+C05 Calidad del documento: 3 puntos. README con resumen, enlaces, secuencia, ejercicios, repositorio y colaboración.
+
+COBERTURA DE CONTENIDOS
+Lección 01: ¿Qué es Java? ¿Por qué programar? Primer Hola Mundo.
+Lección 02: String, int, double, boolean y operadores.
+Lección 03: if/else, for, while.
+Lección 04: métodos, parámetros, retorno y Scanner.
+Lección 05: clases, objetos, constructores y métodos.
+Lección 06: private, getters, setters y validación.
+Lección 07: arrays, cadenas y objetos en colección.
+Lección 08: aplicación Java final con clases; mejores prácticas y errores comunes.
+
+OBLIGACIONES DE ENTREGA
+- 5 a 10 videos; cada uno de 5-15 minutos, total ~60 minutos.
+- Publicación en YouTube como no listados.
+- Código fuente público; repositorio java-fundamentals-course-techmakers.
+- README.md + starter-files + completed-examples + scripts.
+- Ejercicios en editores gratuitos 100 % online con enlaces compartidos PRECARGADOS.
+- Ninguna instalación solicitada a estudiantes.
+- Un documento Markdown principal para el plan; exportación PDF.
+- Informe de participación del coordinador: DOCX y PDF.
+- Contribuciones auténticas mediante Git.
+- Material educativo sin referencias a autores ni marca de la startup.
+
+ESTADO ACTUAL AL INSTALAR
+[PREPARADO] Plan, guiones, ejemplos de ejercicios y soluciones, archivos de apoyo.
+[POR HACER] Videos, publicación, enlaces directos de editores, verificación de contribuciones y exportación final a PDF/DOCX.

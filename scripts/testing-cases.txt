@@ -1,0 +1,20 @@
+PRUEBAS DE VERIFICACIÓN (PARA QUIEN PREPARE EL CURSO)
+
+LECCIÓN 01: Ejecutar Main; verificar dos mensajes.
+LECCIÓN 02: Resultado incluye Ana, 15, 16.5, true y 5.
+LECCIÓN 03: Con nota=16: Aprobado; 3 prácticas; 2 niveles. Con nota=9: otro mensaje.
+LECCIÓN 04: Entradas en líneas separadas: Ana / 15. Debe aparecer saludo y mensaje positivo.
+LECCIÓN 05: Ver dos fichas con notas 16 y 9; ana.aprobo() devuelve true.
+LECCIÓN 06: Empezar con nota 15, actualizar a 18; intento de 25 produce error y no cambia 18.
+LECCIÓN 07: Con notas 16, 12, 18, suma 46, promedio 15.3333333333.
+LECCIÓN 08: Entradas: 1 / Ana / 16 / 1 / Luis / 12 / 2 / 3 / ana / 4 / 0. Debe registrar dos alumnos, mostrar lista, encontrar Ana y calcular promedio 14.0.
+
+REVISIÓN DE ENTRADAS INVÁLIDAS - LECCIÓN 08
+- Opción abc: debe mostrar error y volver a solicitar número.
+- Nota 25: debe rechazar registro.
+- Nombre vacío: debe rechazar registro.
+- Mostrar promedio sin alumnos: debe indicar que no hay notas.
+- Buscar alumno inexistente: debe indicar que no se encontró.
+- Tras 10 alumnos, no permite agregar más.
+
+Importante: el código inicial de starter-files tiene RETOS intencionalmente incompletos pero sintaxis compilable. La versión de completed-examples es la solución lista para demostrar.

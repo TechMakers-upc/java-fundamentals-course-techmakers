@@ -1,0 +1,14 @@
+LECCIÓN 8 - Proyecto final y buenas prácticas - 07:00
+
+Objetivo: terminar un registro interactivo de estudiantes usando POO.
+
+00:00-00:45 | REPASO: objetos, getters, arrays, if y métodos. Mostrar el menú que queremos obtener antes de explicar su código.
+00:45-02:00 | DEMO: explicar opciones 1 registrar, 2 mostrar, 3 buscar, 4 promedio, 0 salir. Identificar while/do-while y switch sin profundizar en sintaxis adicional.
+02:00-03:00 | DEMO: registrar nombre y nota; validar que la nota sea 0..20 y que el nombre no esté vacío. Mostrar mensaje de éxito.
+03:00-04:00 | DEMO: listar, buscar por nombre usando equalsIgnoreCase, y calcular el promedio. Mostrar que cada opción reutiliza un método.
+04:00-05:05 | DEMO: probar errores típicos: escribir letras donde se pide número, pedir el promedio antes de registrar y buscar un nombre inexistente.
+05:05-06:20 | PAUSA: el estudiante ejecuta el programa final, registra dos estudiantes, busca uno y observa el promedio. Repetir el ejercicio con nombres propios.
+06:20-07:00 | CIERRE: recordar qué puede practicar luego: cambiar límite de estudiantes, añadir una lista de aprobados, escribir sus propias reglas.
+
+TEXTO EN PANTALLA: Objetivo → probar → observar resultado → corregir.
+VERIFICACIÓN: menú funcional, registro, lista, búsqueda y promedio con datos válidos e inválidos.

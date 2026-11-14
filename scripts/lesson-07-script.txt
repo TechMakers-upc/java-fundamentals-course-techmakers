@@ -1,0 +1,14 @@
+LECCIÓN 7 - Arrays, cadenas y registros - 09:00
+
+Objetivo: utilizar arreglos de objetos Estudiante y transformar cadenas sencillas.
+
+00:00-01:10 | PROBLEMA: crear una variable distinta para cada estudiante se vuelve difícil. Mostrar arreglo como fila de casillas.
+01:10-02:35 | DEMO: Estudiante[] grupo = {new Estudiante(...), ...}; explicar el tipo de elementos y .length.
+02:35-04:05 | DEMO: for (Estudiante e : grupo), mostrar el nombre y nota de cada estudiante.
+04:05-05:20 | DEMO: getNombre().toUpperCase(); explicar que una cadena puede transformarse en mayúsculas sin cambiar la persona.
+05:20-06:45 | DEMO: int suma, += y (double) suma / grupo.length para obtener el promedio correcto sin división entera.
+06:45-08:15 | PAUSA: agregar un tercer estudiante al starter, sumar notas, calcular promedio, ejecutar y comparar con la versión resuelta.
+08:15-09:00 | CIERRE: «Ya podemos reunir datos. En la lección final daremos opciones para registrar, listar, buscar y resumir estudiantes».
+
+TEXTO EN PANTALLA: Array = colección / for-each = recorrer / length = cantidad / promedio = suma / cantidad.
+VERIFICACIÓN: aparecen tres fichas y promedio 15.333... para notas 16,12,18.

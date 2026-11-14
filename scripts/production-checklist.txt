@@ -1,0 +1,14 @@
+GUÍA DE GRABACIÓN Y PUBLICACIÓN - FUNDAMENTOS DE JAVA
+
+1. VIDEOS. Grabar ocho lecciones usando exactamente los ejemplos de las carpetas. El tiempo objetivo está indicado en cada guion. El total objetivo es 60 minutos y cada video debe durar 5-15 minutos.
+2. EN PANTALLA. Código legible, fuente grande, una idea por vez, subtítulos o texto breve, cursor visible, resultado de cada ejecución. No incluir marcas de la startup, nombres de los autores ni publicidad dentro del video o código.
+3. SIN INSTALACIONES. Las demostraciones deben hacerse con JDoodle u OnlineGDB desde navegador. No indicar a menores que instalen Rider/JDK.
+4. PRÁCTICAS PRECARGADAS. Para cada lección, copiar starter-files/lesson-XX-*/Main.java al editor. Usar la opción Share / Anyone with link (si el servicio la permite) y probar que el enlace abra el código sin necesidad de iniciar sesión. Si el servicio no permite compartirlo así, cambiar a uno que sí lo permita y comprobarlo. Guardar el enlace como PENDIENTE_EDITOR_XX reemplazado en README.md.
+5. YOUTUBE. Subir cada video en modo NO LISTADO y verificar que la URL funcione desde una ventana privada. Reemplazar PENDIENTE_VIDEO_XX por URL real.
+6. DESCRIPCIONES. En cada video colocar: objetivo, capítulo, enlace PRECARGADO del starter en editor online, enlace de solución del repositorio. No incluir nombre de autor ni branding en contenido pedagógico; las atribuciones van en documentación del informe.
+7. REVISIÓN. Comprobar narración, niveles de volumen, ortografía, lectura del código y duración. Deben existir pausas reales para practicar.
+8. COLABORACIÓN. Cada integrante sube aportes verificables (revisión de su guion, un cambio real de ejemplo, etc.). No crear commits sin cambios reales ni atribuir trabajo que no corresponda.
+9. ENTREGA. Exportar README.md a PDF con el nombre upc-pre-202620-1asi0729-16692-techmakers-course-plan.pdf. Preparar el performance en DOCX y PDF, con calificaciones basadas en aportes reales (20/16/13/07/00). Entregar de forma individual y ZIP complementario solo si corresponde.
+10. FECHA. El enunciado menciona evaluación en semana 12 y límite 24 h después del inicio de la sesión semanal indicada; confirmar la hora de la sección 16692 en Aula Virtual.
+
+NOTA: esta guía organiza el trabajo. No significa que los videos, enlaces o evaluaciones ya estén realizados.

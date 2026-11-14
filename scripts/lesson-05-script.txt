@@ -1,0 +1,14 @@
+LECCIÓN 5 - Clases, objetos y constructores - 08:00
+
+Objetivo: introducir programación orientada a objetos mediante una clase Estudiante.
+
+00:00-00:50 | COMPARACIÓN: una ficha en blanco define qué datos tiene un estudiante; una ficha llena corresponde a una persona concreta.
+00:50-02:15 | DEMO: class Estudiante con atributos nombre y nota. Explicar clase = plantilla; objeto = un ejemplo creado con esa plantilla.
+02:15-03:35 | DEMO: constructor Estudiante(String nombre, int nota). Explicar this.nombre = nombre; y new Estudiante("Ana",16).
+03:35-05:00 | DEMO: método mostrarFicha() para presentar datos y boolean aprobo() para decidir según la nota. Vincular con las lecciones 3 y 4.
+05:00-06:20 | DEMO: instanciar Luis además de Ana; cada objeto conserva sus propios valores.
+06:20-07:25 | PAUSA: el estudiante agrega el método y un segundo objeto en el archivo inicial.
+07:25-08:00 | CIERRE: «Nuestros datos funcionan. ¿Cómo evitamos que alguien ponga una nota imposible? Con encapsulación».
+
+TEXTO EN PANTALLA: Clase = plantilla / Objeto = instancia / Constructor = inicialización / Método = comportamiento.
+VERIFICACIÓN: dos estudiantes imprimen datos diferentes.

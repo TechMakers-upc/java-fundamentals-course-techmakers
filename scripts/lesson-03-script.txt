@@ -1,0 +1,13 @@
+LECCIÓN 3 - Condiciones y bucles - 08:00
+
+Objetivo: cambiar el comportamiento del programa mediante decisiones y repeticiones.
+
+00:00-01:00 | REVISIÓN: leer una variable nota; preguntar qué mensaje corresponde a 16 y a 9.
+01:00-02:45 | DEMO: if (nota >= 11) { ... } else { ... }. Explicar condición como pregunta cuya respuesta es sí o no. Ejecutar con 16 y luego con 9.
+02:45-04:40 | DEMO: for (int intento=1; intento<=3; intento++) {...}. Marcar inicio, condición e incremento y contar junto con el resultado.
+04:40-06:00 | DEMO: while (nivel <= 2) {... nivel++; }. Explicar por qué el valor debe cambiar para no repetir infinitamente.
+06:00-07:20 | PAUSA DE PRÁCTICA: dejar que el estudiante complete el if, las tres repeticiones y los dos niveles en starter-files.
+07:20-08:00 | CIERRE: «Ya tomamos decisiones y repetimos tareas. Ahora aprenderemos a juntar instrucciones en métodos y a pedir datos al usuario».
+
+TEXTO EN PANTALLA: if = decidir / for = repetir una cantidad / while = repetir mientras.
+VERIFICACIÓN: aparecen Aprobado, Práctica 1..3 y Nivel 1..2.

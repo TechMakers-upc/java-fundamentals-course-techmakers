@@ -1,0 +1,14 @@
+LECCIÓN 2 - Variables, tipos de datos y operadores - 08:00
+
+Objetivo: representar a una persona con nombre, edad, promedio y datos lógicos.
+
+00:00-00:50 | RECORDATORIO: los mensajes de la lección anterior mostraban texto fijo. Preguntar: ¿y si queremos guardar datos que cambian?
+00:50-02:10 | CONCEPTO VISUAL: variable = caja con etiqueta. Escribir String nombre = "Ana"; int edad = 15; y explicar tipo, nombre y valor.
+02:10-03:20 | DEMO: mostrar double promedio = 16.5 y boolean practicaJava = true. Comparar cada tipo con ejemplos de la vida diaria.
+03:20-04:40 | DEMO: agregar int puntosGanados = 3 + 2; probar +, -, *, / con enteros. Explicar que las operaciones producen resultados y el tipo importa.
+04:40-05:50 | DEMO: imprimir variables unidas a un mensaje con +; ejecutar el ejemplo resuelto y comprobar el resultado.
+05:50-07:10 | PAUSA GUIADA: copiar código inicial; crear promedio, practicaJava y puntosGanados; cambiar los valores, ejecutar y comparar.
+07:10-08:00 | CIERRE/PUENTE: «Ahora que tenemos una nota guardada, podemos decidir qué mensaje mostrar según su valor».
+
+TEXTO EN PANTALLA: String = texto / int = entero / double = decimal / boolean = verdadero-falso.
+VERIFICACIÓN: El resultado muestra cuatro tipos y un cálculo correcto.

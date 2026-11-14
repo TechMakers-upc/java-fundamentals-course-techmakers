@@ -1,0 +1,14 @@
+LECCIÓN 4 - Métodos, parámetros y Scanner - 07:00
+
+Objetivo: reutilizar código y leer información proporcionada por un usuario.
+
+00:00-00:55 | PROBLEMA: repetir saludos para muchas personas produce código duplicado. Un método permite reutilizar instrucciones.
+00:55-02:20 | DEMO: static void saludar(String nombre). Explicar el parámetro como dato que llega y void como «no devuelve valor». Invocarlo.
+02:20-03:15 | DEMO: static boolean puedeParticipar(int edad). Explicar return y el resultado true/false.
+03:15-04:50 | DEMO: Scanner entrada = new Scanner(System.in); nextLine para el nombre, nextInt para la edad. Utilizar el panel Input del editor online, por ejemplo: Ana, salto de línea, 15.
+04:50-05:45 | DEMO: conectar los métodos con if/else y mostrar el resultado.
+05:45-06:35 | PAUSA: probar otra edad y otro nombre. Completar los métodos en el archivo inicial.
+06:35-07:00 | CIERRE: «En la siguiente lección agruparemos los datos y comportamientos de una persona usando una clase».
+
+TEXTO EN PANTALLA: Método = tarea reutilizable / Parámetro = dato de entrada / return = resultado.
+VERIFICACIÓN: un nombre y edad proporcionados en la entrada cambian la salida.

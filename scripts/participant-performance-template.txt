@@ -1,0 +1,21 @@
+INFORME DE PARTICIPACION - PLANTILLA PARA EL TEAM LEADER
+
+Documento de entrega posterior en Word y PDF.
+Nombre: upc-pre-202620-1asi0729-16692-techmakers-course-plan-performance.docx
+Tambien exportar a PDF con el mismo nombre base.
+
+EVALUACION: Trabajo Complementario del curso Java
+EQUIPO: TechMakers
+TEAM LEADER: Alvar Lucas Cordova
+
+Escala del enunciado: 20 / 16 / 13 / 07 / 00.
+
+Integrante | Responsabilidades comprobables | A tiempo / Destiempo / Parcial / No cumplio | Evidencia (commit/video) | Nota
+Alvar Lucas Cordova | COMPLETAR | COMPLETAR | COMPLETAR | POR EVALUAR
+Sunio Danilo Landa Sanchez | COMPLETAR | COMPLETAR | COMPLETAR | POR EVALUAR
+Giuseppe Adrian Villanueva Rodriguez | COMPLETAR | COMPLETAR | COMPLETAR | POR EVALUAR
+Diego Rances Rojas Huaranga | COMPLETAR | COMPLETAR | COMPLETAR | POR EVALUAR
+Pierre Alessandro Mendoza Boluarte | COMPLETAR | COMPLETAR | COMPLETAR | POR EVALUAR
+
+IMPORTANTE: Las contribuciones y notas deben basarse en el trabajo real de cada miembro.
+No completar la tabla con calificaciones inventadas.

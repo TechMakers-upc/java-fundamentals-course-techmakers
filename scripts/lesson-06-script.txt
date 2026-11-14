@@ -1,0 +1,13 @@
+LECCIÓN 6 - Encapsulación y validación de datos - 07:00
+
+Objetivo: proteger información de una clase y validar cambios.
+
+00:00-00:50 | PROBLEMA: ¿qué ocurre si una nota toma un valor como 25, cuando el máximo es 20?
+00:50-02:00 | DEMO: private String nombre; private int nota; explicar que private impide acceder directamente desde fuera de la clase.
+02:00-03:10 | DEMO: getNombre() y getNota(): métodos que permiten consultar los valores.
+03:10-04:50 | DEMO: setNota(int nuevaNota) con if entre 0 y 20; demostrar un cambio válido y otro inválido.
+04:50-05:55 | PAUSA: completar setter y cambiar las notas en el starter. Mostrar la salida antes y después.
+05:55-07:00 | CIERRE: «Encapsular sirve para proteger las reglas del programa. En la próxima lección guardaremos varios estudiantes en un arreglo».
+
+TEXTO EN PANTALLA: private = protección / getter = consultar / setter = actualizar con reglas.
+VERIFICACIÓN: una nota inválida muestra error y no reemplaza el valor válido.

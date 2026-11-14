@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+# Java compilation
+*.class
+out/
+build/
+target/
+# Locally generated backups
+.tr-java-backup-*/
+.DS_Store
+Thumbs.db
