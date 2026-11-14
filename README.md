@@ -1,168 +1,100 @@
 # Fundamentos de Java para principiantes
 
-> Curso educativo para estudiantes de secundaria de **12 a 17 años**, sin experiencia previa en programación. **No requiere descargas ni instalaciones**: todas las prácticas se realizan desde un navegador.
+Este curso está pensado para estudiantes de secundaria que quieren aprender a programar desde cero. A lo largo de ocho lecciones aprenderemos los conceptos básicos de Java y construiremos un **registro de estudiantes**: un programa sencillo con el que podremos guardar nombres y notas, consultar registros y calcular promedios.
 
-## Resumen del curso
+Comenzaremos con instrucciones simples y avanzaremos hasta trabajar con clases y objetos. Cada lección tiene un ejercicio para practicar y un ejemplo resuelto que puedes consultar después de intentarlo por tu cuenta.
 
-Aprenderás a dar instrucciones a una computadora con Java y a crear un pequeño **registro de estudiantes**. Empezarás mostrando mensajes, luego trabajarás con datos, decisiones y repeticiones; finalmente crearás objetos y organizarás sus datos. Cada lección incluye un ejercicio para completar, una solución y una explicación que depende de lo aprendido en la anterior.
+- **Público:** estudiantes de 12 a 17 años, sin experiencia previa en programación.
+- **Duración prevista:** aproximadamente 60 minutos en ocho lecciones.
+- **Requisitos:** un navegador y conexión a internet. No necesitas instalar Java ni ningún programa.
+- **Editor:** puedes utilizar [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) para ejecutar los ejemplos.
 
-- **Duración programada:** aproximadamente 60 minutos (8 videos, de 6 a 9 minutos cada uno).
-- **Prerrequisitos:** saber usar un navegador y escribir con el teclado.
-- **Herramientas para estudiantes:** navegador web y un editor gratuito online, como [JDoodle](https://www.jdoodle.com/online-java-compiler) o [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). No se requiere instalar Java ni Rider.
-- **Idioma de enseñanza:** español claro, con vocabulario técnico explicado en el momento.
-- **Repositorio público del código:** [Fundamentos de Java](https://github.com/TechMakers-upc/java-fundamentals-course-techmakers).
+## Cómo seguir el curso
 
-### Cómo practicar sin instalar herramientas
+Abre el código inicial de cada lección, cópialo en un editor Java en línea y ejecútalo. Después, realiza el ejercicio propuesto. Si te atascas, compara tu trabajo con la versión resuelta.
 
-1. Abre el enlace **Practicar en línea** de la lección o el editor [JDoodle para Java](https://www.jdoodle.com/online-java-compiler).
-2. Si aún no existe un enlace compartido precargado, abre el archivo `Main.java` en `starter-files` de esa lección, copia el contenido en el editor y pulsa **Run**.
-3. Realiza el reto indicado. Si necesitas ayuda, compara tu programa con `completed-examples` de la misma lección.
-4. El programa final está en la lección 08 y muestra cómo utilizar las clases, métodos y arreglos.
+Los videos y los enlaces directos a las prácticas estarán disponibles junto a cada lección una vez publicados.
 
-**Nota para los responsables de publicar:** las direcciones que comienzan con `PENDIENTE_VIDEO_` y `PENDIENTE_EDITOR_` son marcadores reales de trabajo. Sustitúyanlas únicamente por enlaces compartidos y comprobados. Un enlace a la página general del editor **no equivale** al enlace directo al ejercicio precargado exigido en el enunciado.
+## Lecciones
 
-## Secuencia de lecciones
+### Lección 1. Primeros pasos con Java (6 min)
 
-### Lección 1. Introduccion a Java y primer programa (6 min)
+Empezaremos por entender qué es programar, qué es Java y cómo mostrar nuestro primer mensaje en pantalla con `System.out.println`.
 
-**Qué aprenderás.** Comprende qué es programar y ejecuta tu primer `System.out.println`.
+**Práctica:** cambia el mensaje de bienvenida y escribe una frase sobre uno de tus pasatiempos.
 
-**Reto.** Cambia el mensaje de bienvenida por otro que incluya una afición.
-
-- **Video de YouTube (no listado):** [Ver lección 1](PENDIENTE_VIDEO_01)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 1](PENDIENTE_EDITOR_01)
-- **Código inicial:** [`starter-files/lesson-01-hello-world/Main.java`](starter-files/lesson-01-hello-world/Main.java)
-- **Solución:** [`completed-examples/lesson-01-hello-world/Main.java`](completed-examples/lesson-01-hello-world/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-01-script.txt`](scripts/lesson-01-script.txt)
+**Material:** [Código inicial](starter-files/lesson-01-hello-world/Main.java) · [Ejemplo resuelto](completed-examples/lesson-01-hello-world/Main.java)
 
 ### Lección 2. Variables, tipos de datos y operadores (8 min)
 
-**Qué aprenderás.** Guarda información usando `String`, `int`, `double` y `boolean`; calcula con operadores.
+Aprenderemos a guardar información con `String`, `int`, `double` y `boolean`, y a realizar cálculos sencillos.
 
-**Reto.** Añade una variable `nota` y muestra si se puede sumar con otra nota.
+**Práctica:** añade una nota y calcula el resultado de sumarla con otra.
 
-- **Video de YouTube (no listado):** [Ver lección 2](PENDIENTE_VIDEO_02)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 2](PENDIENTE_EDITOR_02)
-- **Código inicial:** [`starter-files/lesson-02-variables/Main.java`](starter-files/lesson-02-variables/Main.java)
-- **Solución:** [`completed-examples/lesson-02-variables/Main.java`](completed-examples/lesson-02-variables/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-02-script.txt`](scripts/lesson-02-script.txt)
+**Material:** [Código inicial](starter-files/lesson-02-variables/Main.java) · [Ejemplo resuelto](completed-examples/lesson-02-variables/Main.java)
 
 ### Lección 3. Condiciones y bucles (8 min)
 
-**Qué aprenderás.** Toma decisiones con `if/else` y repite instrucciones con `for` y `while`.
+Usaremos `if` y `else` para tomar decisiones. También veremos cómo repetir instrucciones con `for` y `while`.
 
-**Reto.** Cambia la nota; observa cuándo aparece «Aprobado» y repite con otro valor.
+**Práctica:** prueba distintas notas y observa cuándo el programa muestra el mensaje de aprobado.
 
-- **Video de YouTube (no listado):** [Ver lección 3](PENDIENTE_VIDEO_03)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 3](PENDIENTE_EDITOR_03)
-- **Código inicial:** [`starter-files/lesson-03-control-flow/Main.java`](starter-files/lesson-03-control-flow/Main.java)
-- **Solución:** [`completed-examples/lesson-03-control-flow/Main.java`](completed-examples/lesson-03-control-flow/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-03-script.txt`](scripts/lesson-03-script.txt)
+**Material:** [Código inicial](starter-files/lesson-03-control-flow/Main.java) · [Ejemplo resuelto](completed-examples/lesson-03-control-flow/Main.java)
 
-### Lección 4. Metodos y entrada de datos (7 min)
+### Lección 4. Métodos y entrada de datos (7 min)
 
-**Qué aprenderás.** Reutiliza instrucciones con métodos, parámetros y valores devueltos; lee datos con `Scanner`.
+Crearemos métodos para reutilizar instrucciones y utilizaremos `Scanner` para leer datos escritos por el usuario.
 
-**Reto.** Escribe otro nombre y edad en la entrada y modifica el mensaje del método.
+**Práctica:** introduce un nombre y una edad, y personaliza el mensaje que devuelve el programa.
 
-- **Video de YouTube (no listado):** [Ver lección 4](PENDIENTE_VIDEO_04)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 4](PENDIENTE_EDITOR_04)
-- **Código inicial:** [`starter-files/lesson-04-methods-input/Main.java`](starter-files/lesson-04-methods-input/Main.java)
-- **Solución:** [`completed-examples/lesson-04-methods-input/Main.java`](completed-examples/lesson-04-methods-input/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-04-script.txt`](scripts/lesson-04-script.txt)
+**Material:** [Código inicial](starter-files/lesson-04-methods-input/Main.java) · [Ejemplo resuelto](completed-examples/lesson-04-methods-input/Main.java)
 
-### Lección 5. Clases, objetos y constructores (8 min)
+### Lección 5. Clases y objetos (8 min)
 
-**Qué aprenderás.** Modela un estudiante mediante atributos, constructor, objetos y métodos.
+Conoceremos la programación orientada a objetos creando una clase `Estudiante` con atributos, constructor y métodos.
 
-**Reto.** Crea un segundo objeto con otros datos e invoca `mostrarFicha()`.
+**Práctica:** crea un segundo estudiante con datos diferentes y muestra su información.
 
-- **Video de YouTube (no listado):** [Ver lección 5](PENDIENTE_VIDEO_05)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 5](PENDIENTE_EDITOR_05)
-- **Código inicial:** [`starter-files/lesson-05-classes-objects/Main.java`](starter-files/lesson-05-classes-objects/Main.java)
-- **Solución:** [`completed-examples/lesson-05-classes-objects/Main.java`](completed-examples/lesson-05-classes-objects/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-05-script.txt`](scripts/lesson-05-script.txt)
+**Material:** [Código inicial](starter-files/lesson-05-classes-objects/Main.java) · [Ejemplo resuelto](completed-examples/lesson-05-classes-objects/Main.java)
 
-### Lección 6. Encapsulacion y validacion de datos (7 min)
+### Lección 6. Encapsulación (7 min)
 
-**Qué aprenderás.** Protege los atributos con `private` y controla cambios con getters y setters.
+Veremos por qué algunos atributos se declaran `private` y cómo usar getters y setters para consultar y modificar datos de forma controlada.
 
-**Reto.** Prueba una nota inválida, comprueba la validación y explica por qué importa.
+**Práctica:** intenta asignar una nota fuera del rango permitido y comprueba cómo responde el programa.
 
-- **Video de YouTube (no listado):** [Ver lección 6](PENDIENTE_VIDEO_06)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 6](PENDIENTE_EDITOR_06)
-- **Código inicial:** [`starter-files/lesson-06-encapsulation/Main.java`](starter-files/lesson-06-encapsulation/Main.java)
-- **Solución:** [`completed-examples/lesson-06-encapsulation/Main.java`](completed-examples/lesson-06-encapsulation/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-06-script.txt`](scripts/lesson-06-script.txt)
+**Material:** [Código inicial](starter-files/lesson-06-encapsulation/Main.java) · [Ejemplo resuelto](completed-examples/lesson-06-encapsulation/Main.java)
 
-### Lección 7. Arrays, cadenas y registros (9 min)
+### Lección 7. Arreglos y cadenas de texto (9 min)
 
-**Qué aprenderás.** Trabaja con arreglos de objetos `Estudiante` y cadenas; recorre y resume registros.
+Aprenderemos a reunir varios objetos `Estudiante` en un arreglo, recorrerlos y trabajar con nombres y notas.
 
-**Reto.** Agrega un tercer estudiante y calcula su promedio con el bucle.
+**Práctica:** agrega otro estudiante y calcula el promedio de los registros.
 
-- **Video de YouTube (no listado):** [Ver lección 7](PENDIENTE_VIDEO_07)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 7](PENDIENTE_EDITOR_07)
-- **Código inicial:** [`starter-files/lesson-07-arrays-strings/Main.java`](starter-files/lesson-07-arrays-strings/Main.java)
-- **Solución:** [`completed-examples/lesson-07-arrays-strings/Main.java`](completed-examples/lesson-07-arrays-strings/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-07-script.txt`](scripts/lesson-07-script.txt)
+**Material:** [Código inicial](starter-files/lesson-07-arrays-strings/Main.java) · [Ejemplo resuelto](completed-examples/lesson-07-arrays-strings/Main.java)
 
-### Lección 8. Proyecto final y buenas practicas (7 min)
+### Lección 8. Proyecto final: registro de estudiantes (7 min)
 
-**Qué aprenderás.** Integra todo en un menú para registrar, buscar y consultar estudiantes; corrige errores comunes.
+Reuniremos lo aprendido para crear un programa con un menú que permita registrar estudiantes, buscarlos por nombre y consultar sus notas. Terminaremos repasando errores comunes y buenas prácticas.
 
-**Reto.** Registra dos estudiantes, búscalos por nombre y verifica el promedio.
+**Práctica:** registra dos estudiantes, búscalos y verifica sus promedios.
 
-- **Video de YouTube (no listado):** [Ver lección 8](PENDIENTE_VIDEO_08)
-- **Practicar en línea, código precargado:** [Abrir ejercicio de la lección 8](PENDIENTE_EDITOR_08)
-- **Código inicial:** [`starter-files/lesson-08-final-project/Main.java`](starter-files/lesson-08-final-project/Main.java)
-- **Solución:** [`completed-examples/lesson-08-final-project/Main.java`](completed-examples/lesson-08-final-project/Main.java)
-- **Guion de narración y grabación:** [`scripts/lesson-08-script.txt`](scripts/lesson-08-script.txt)
+**Material:** [Código inicial](starter-files/lesson-08-final-project/Main.java) · [Ejemplo resuelto](completed-examples/lesson-08-final-project/Main.java)
 
-## Recursos de apoyo
+## Recursos del curso
 
-- [JDoodle - compilador Java](https://www.jdoodle.com/online-java-compiler)
-- [OnlineGDB - compilador Java](https://www.onlinegdb.com/online_java_compiler)
-- [Guía de grabación y publicación](scripts/production-checklist.txt)
-- [Cargar enlaces de videos y prácticas](scripts/video-links.csv) (usa `scripts/Actualizar-Enlaces.ps1`)
-- [Descripciones para YouTube](scripts/youtube-descriptions.txt)
-- [Matriz de cobertura del enunciado y la rúbrica](scripts/rubric-and-coverage.txt)
-- [Ejemplos de entradas y salidas para comprobar el código](scripts/testing-cases.txt)
+Los archivos de `starter-files` contienen los ejercicios para completar; en `completed-examples` encontrarás las soluciones. La carpeta `scripts` reúne los guiones de las lecciones y el material utilizado para prepararlas.
 
-## Elaboración colaborativa
+## Elaboración
 
-- **Universidad:** Universidad Peruana de Ciencias Aplicadas (UPC)
-- **Carrera:** Ingeniería de Software
-- **Curso:** 1ASI0729, Desarrollo de Aplicaciones Open Source
-- **Ciclo:** 202620 · **Sección/NRC:** 16692
-- **Startup:** TechMakers
+Curso preparado para **Desarrollo de Aplicaciones Open Source (1ASI0729)**, sección **16692**, ciclo **2026-20**, de la carrera de Ingeniería de Software de la **Universidad Peruana de Ciencias Aplicadas (UPC)**.
 
-**Equipo:** Alvar Lucas Córdova, Sunio Danilo Landa Sánchez, Giuseppe Adrián Villanueva Rodríguez, Diego Rances Rojas Huaranga y Pierre Alessandro Mendoza Boluarte.
+**Equipo: TechMakers**
 
-Las contribuciones se deben acreditar mediante commits y Pull Requests reales. En la versión final de la entrega, completen este apartado explicando quién revisó los ejemplos, quién grabó cada lección, quién editó los videos y quién realizó el control de calidad. No registren como realizadas tareas que no se hayan completado.
+- Alvar Lucas Córdova
+- Sunio Danilo Landa Sánchez
+- Giuseppe Adrián Villanueva Rodríguez
+- Diego Rances Rojas Huaranga
+- Pierre Alessandro Mendoza Boluarte
 
-**Registro de contribuciones (completar con hechos verificables):**
-
-| Integrante | Aportaciones comprobadas al curso | Enlace a commits/PR |
-|---|---|---|
-| Alvar Lucas Córdova | Pendiente de consolidar | Pendiente |
-| Sunio Danilo Landa Sánchez | Pendiente de consolidar | Pendiente |
-| Giuseppe Adrián Villanueva Rodríguez | Pendiente de consolidar | Pendiente |
-| Diego Rances Rojas Huaranga | Pendiente de consolidar | Pendiente |
-| Pierre Alessandro Mendoza Boluarte | Pendiente de consolidar | Pendiente |
-
-> **Requisito de publicación:** el material pedagógico, los videos y los ejemplos de Java no deben tener marcas comerciales del equipo ni atribuciones personales. Los datos de autoría y participación figuran solamente en esta documentación administrativa.
-
-## Lista de cierre antes de exportar a PDF
-
-- [ ] Los ocho videos están grabados y publicados como **no listados** en YouTube.
-- [ ] Los videos duran en conjunto aproximadamente 60 minutos, y cada uno entre 5 y 15 minutos.
-- [ ] Cada marcador `PENDIENTE_VIDEO_XX` se reemplazó por un enlace real verificado.
-- [ ] Cada marcador `PENDIENTE_EDITOR_XX` se reemplazó por un enlace que abre **el ejercicio ya cargado** en el editor online.
-- [ ] Los ocho ejemplos resueltos compilan y los archivos iniciales permiten practicar.
-- [ ] Cada video contiene narración, texto en pantalla, demostración de código y pausa de práctica.
-- [ ] Se revisaron sonido, legibilidad, ortografía y accesibilidad.
-- [ ] Se documentaron los aportes auténticos mediante commits/PR.
-- [ ] Se exportó el plan Markdown a PDF y se preparó el informe de participación en DOCX y PDF.
-
-**Estado de este repositorio:** material educativo y plantillas preparados; la grabación, enlaces compartidos y acreditación de aportes deben completarse con evidencia real.
+Los avances del curso y las aportaciones de sus integrantes se registran en el historial de GitHub conforme se desarrolla el material.
