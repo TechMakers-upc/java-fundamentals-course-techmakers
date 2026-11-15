@@ -29,6 +29,25 @@ OBLIGACIONES DE ENTREGA
 - Contribuciones auténticas mediante Git.
 - Material educativo sin referencias a autores ni marca de la startup.
 
-ESTADO ACTUAL AL INSTALAR
-[PREPARADO] Plan, guiones, ejemplos de ejercicios y soluciones, archivos de apoyo.
-[POR HACER] Videos, publicación, enlaces directos de editores, verificación de contribuciones y exportación final a PDF/DOCX.
+ESTADO DOCUMENTADO DEL CURSO
+
+[DISPONIBLE]
+- Ocho videolecciones enlazadas en el README.
+- Duracion declarada: 58 minutos y 43 segundos.
+- Ocho practicas de Java en linea.
+- Ocho ejercicios iniciales y ocho soluciones.
+- Plan del curso en README.md.
+
+[VERIFICADO]
+- Estructura de archivos requerida.
+- Aportaciones Git de Alvar, Giuseppe y Diego.
+- Pruebas Java 21 aprobadas en GitHub Actions.
+
+[VERIFICACION MANUAL PENDIENTE]
+- Comprobar privacidad de los videos.
+- Revisar audio, narracion e imagen.
+- Comprobar enlaces de practicas en YouTube.
+- Exportar el plan del curso a PDF.
+- Preparar el informe de participacion DOCX y PDF.
+
+Las pruebas automaticas no verifican la calidad audiovisual.
