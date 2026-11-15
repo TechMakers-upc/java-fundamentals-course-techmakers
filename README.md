@@ -103,13 +103,11 @@ El estudiante completa los retos de las primeras siete clases y comprueba su apr
 
 Proyecto de la UPC, curso **Desarrollo de Aplicaciones Open Source (1ASI0729)**, NRC **16692**, ciclo **2026-20**. Equipo: **TechMakers**. La coordinación del plan de curso y la integración final del repositorio corresponden a **Alvar Lucas Córdova**, Team Leader.
 
-Integrantes del equipo:
+Participantes del trabajo complementario:
 
 - **Alvar Lucas Córdova** — coordinación y consolidación del material de entrega.
-- **Giuseppe Adrián Villanueva Rodríguez** — colaboración en el trabajo del curso, comunicada por el equipo.
-- **Diego Rances Rojas Huaranga** — colaboración en el trabajo del curso, comunicada por el equipo.
-- **Sunio Danilo Landa Sánchez** — integrante del equipo; participación individual detallada por el coordinador en el informe correspondiente.
-- **Pierre Alessandro Mendoza Boluarte** — integrante del equipo; participación individual detallada por el coordinador en el informe correspondiente.
+- **Giuseppe Adrián Villanueva Rodríguez** — participación en la elaboración del curso de Java.
+- **Diego Rances Rojas Huaranga** — participación en la elaboración del curso de Java.
 
 Las responsabilidades específicas y notas individuales se documentan en el **Participant Performance Report**, contrastando tareas realizadas y evidencia real. Los commits publicados pueden revisarse en el [historial de GitHub](https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/commits/main/). No se atribuyen commits a estudiantes que no los hayan efectuado.
 
