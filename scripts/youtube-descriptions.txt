@@ -1,45 +1,48 @@
-DESCRIPCIONES PARA YOUTUBE (PERSONALIZAR ANTES DE PUBLICAR)
+LECCION 01 - Introducción y primer programa en Java
+Objetivo: Qué es programar, qué es Java y cómo mostrar mensajes.
+Video: https://www.youtube.com/watch?v=XTbDYVRROxg
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-01.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-01-hello-world/Main.java
 
-No incluir nombre de persona ni marca de startup en la descripcion del material educativo.
-Todos los videos deben publicarse como NO LISTADOS. Los enlaces a practicas deben abrir
-el ejercicio precargado, no el editor vacio. Reemplazar los campos indicados.
+LECCION 02 - Variables, tipos de datos y operadores
+Objetivo: Datos String, int, double, boolean y operaciones sencillas.
+Video: https://www.youtube.com/watch?v=ZJA2KTzY1jE
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-02.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-02-variables/Main.java
 
-LECCIÓN 01 - Introduccion a Java y primer programa
-Objetivo: comprender que es programar y mostrar mensajes en Java.
-Ejercicio editable: PENDIENTE_EDITOR_01
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-01-hello-world/Main.java
+LECCION 03 - Condiciones y bucles
+Objetivo: Decisiones if/else y repeticiones con for y while.
+Video: https://www.youtube.com/watch?v=q5zacHFzqwE
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-03.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-03-control-flow/Main.java
 
-LECCIÓN 02 - Variables y tipos de datos
-Objetivo: usar String, int, double, boolean y operadores.
-Ejercicio editable: PENDIENTE_EDITOR_02
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-02-variables/Main.java
+LECCION 04 - Métodos y parámetros
+Objetivo: Métodos reutilizables, parámetros, retorno y entrada con Scanner.
+Video: https://www.youtube.com/watch?v=QULdRkWInEk
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-04.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-04-methods-input/Main.java
 
-LECCIÓN 03 - Condiciones y bucles
-Objetivo: practicar if, else, for y while.
-Ejercicio editable: PENDIENTE_EDITOR_03
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-03-control-flow/Main.java
+LECCION 05 - Clases, objetos y constructores
+Objetivo: Modelado de un estudiante con atributos, métodos y constructor.
+Video: https://www.youtube.com/watch?v=LI0jqFQd_1Q
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-05.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-05-classes-objects/Main.java
 
-LECCIÓN 04 - Metodos y Scanner
-Objetivo: crear metodos con parametros y leer entradas.
-Ejercicio editable: PENDIENTE_EDITOR_04
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-04-methods-input/Main.java
+LECCION 06 - Encapsulación y validación
+Objetivo: Atributos privados, getters, setters y validación de notas.
+Video: https://www.youtube.com/watch?v=VNrOLX8tkeI
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-06.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-06-encapsulation/Main.java
 
-LECCIÓN 05 - Clases y objetos
-Objetivo: modelar objetos Estudiante con atributos y constructor.
-Ejercicio editable: PENDIENTE_EDITOR_05
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-05-classes-objects/Main.java
+LECCION 07 - Arreglos y colecciones
+Objetivo: Arreglos de objetos y recorrido para obtener un promedio.
+Video: https://www.youtube.com/watch?v=iQ70uHn4g9I
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-07.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-07-arrays-strings/Main.java
 
-LECCIÓN 06 - Encapsulacion
-Objetivo: usar private, getters, setters y validar notas.
-Ejercicio editable: PENDIENTE_EDITOR_06
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-06-encapsulation/Main.java
+LECCION 08 - Proyecto final: registro de estudiantes
+Objetivo: Programa con menú para registrar, buscar y consultar estudiantes.
+Video: https://www.youtube.com/watch?v=4dYG0xN6whU
+Practica con codigo inicial: https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-08.html
+Solucion: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/main/completed-examples/lesson-08-final-project/Main.java
 
-LECCIÓN 07 - Arrays y cadenas
-Objetivo: agrupar objetos, recorrer arrays y calcular promedio.
-Ejercicio editable: PENDIENTE_EDITOR_07
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-07-arrays-strings/Main.java
-
-LECCIÓN 08 - Proyecto final
-Objetivo: integrar clases, arreglos y metodos en un registro de estudiantes.
-Ejercicio editable: PENDIENTE_EDITOR_08
-Solucion en GitHub: https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/blob/feature/tr-java-course/completed-examples/lesson-08-final-project/Main.java

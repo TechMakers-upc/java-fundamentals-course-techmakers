@@ -1,0 +1,12 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Java - Lección 03</title><style>body{margin:0;font:16px 'Segoe UI',Arial,sans-serif;color:#193047;background:#f3f7fb}header,main{max-width:1120px;margin:auto;padding:15px 20px}h1{font-size:24px;margin:8px 0}.note{background:white;border-left:4px solid #2563eb;padding:12px;margin:12px 0}.editor{width:100%;height:600px;border:1px solid #d1d9e6;border-radius:8px;background:white}a{color:#1b56a1}button{background:#155db4;color:white;border:0;border-radius:6px;padding:10px 15px;font-size:14px;cursor:pointer}</style></head><body>
+<header><a href="../index.html">Volver a todas las lecciones</a><h1>Lección 03: Condiciones y bucles</h1><p><a href="https://www.youtube.com/watch?v=q5zacHFzqwE" target="_blank" rel="noopener">Ver videoleccion en YouTube</a></p></header>
+<main><div class="note"><strong>Tu reto:</strong> Prueba una nota aprobatoria y otra desaprobatoria; cambia el n&#250;mero de repeticiones.<br>El código inicial se carga automáticamente en el editor de Java. No necesitas instalar nada.</div>
+<button id="load" type="button">Cargar de nuevo el código inicial</button><p>Haz los cambios y presiona Run en el editor.</p>
+<iframe id="editor" class="editor" title="Editor Java en OneCompiler" src="https://onecompiler.com/embed/java?listenToEvents=true&amp;hideLanguageSelection=true&amp;fontSize=18" allow="clipboard-read; clipboard-write"></iframe>
+</main><script>
+const sourceCode="public class Main {\r\n    public static void main(String[] args) {\r\n        int nota = 16;\r\n        // RETO: muestra \"Aprobado\" si nota \u003e= 11; en otro caso, \"En práctica\".\r\n        System.out.println(\"Nota: \" + nota);\r\n        // RETO: usa for para mostrar tres prácticas numeradas.\r\n        // RETO: usa while para mostrar los niveles 1 y 2.\r\n    }\r\n}";
+const editor=document.getElementById('editor');
+function precargar(){if(editor.contentWindow){editor.contentWindow.postMessage({eventType:'populateCode',language:'java',files:[{name:'Main.java',content:sourceCode}]},'https://onecompiler.com');}}
+editor.addEventListener('load',()=>{setTimeout(precargar,450);setTimeout(precargar,1600);});
+document.getElementById('load').addEventListener('click',precargar);
+</script></body></html>

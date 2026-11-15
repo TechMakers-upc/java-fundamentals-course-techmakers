@@ -1,100 +1,121 @@
 # Fundamentos de Java para principiantes
 
-Este curso está pensado para estudiantes de secundaria que quieren aprender a programar desde cero. A lo largo de ocho lecciones aprenderemos los conceptos básicos de Java y construiremos un **registro de estudiantes**: un programa sencillo con el que podremos guardar nombres y notas, consultar registros y calcular promedios.
+Curso introductorio de Java y programación orientada a objetos para estudiantes de secundaria de 12 a 17 años, sin experiencia previa. Ocho lecciones cortas desarrollan progresivamente un **registro de estudiantes** que permite consultar nombres y notas y calcular promedios. No se necesita instalar software; las prácticas utilizan un editor web gratuito.
 
-Comenzaremos con instrucciones simples y avanzaremos hasta trabajar con clases y objetos. Cada lección tiene un ejercicio para practicar y un ejemplo resuelto que puedes consultar después de intentarlo por tu cuenta.
+**Duración:** aproximadamente 59 minutos en 8 videos. **Modalidad:** videos de YouTube no listados y ejercicios en línea. **Prerrequisitos:** ninguno, salvo un navegador e Internet.
 
-- **Público:** estudiantes de 12 a 17 años, sin experiencia previa en programación.
-- **Duración prevista:** aproximadamente 60 minutos en ocho lecciones.
-- **Requisitos:** un navegador y conexión a internet. No necesitas instalar Java ni ningún programa.
-- **Editor:** puedes utilizar [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler) para ejecutar los ejemplos.
+**Código fuente y soluciones:** https://github.com/TechMakers-upc/java-fundamentals-course-techmakers
+**Prácticas con el código inicial precargado:** https://techmakers-upc.github.io/java-fundamentals-course-techmakers/
 
-## Cómo seguir el curso
+## Ruta de aprendizaje
 
-Abre el código inicial de cada lección, cópialo en un editor Java en línea y ejecútalo. Después, realiza el ejercicio propuesto. Si te atascas, compara tu trabajo con la versión resuelta.
+| Lección | Tema | Duración | Video | Práctica |
+|:--:|---|:--:|---|---|
+| 01 | Introducción y primer programa en Java | 07:02 | [Ver video](https://www.youtube.com/watch?v=XTbDYVRROxg) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-01.html) |
+| 02 | Variables, tipos de datos y operadores | 07:18 | [Ver video](https://www.youtube.com/watch?v=ZJA2KTzY1jE) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-02.html) |
+| 03 | Condiciones y bucles | 07:16 | [Ver video](https://www.youtube.com/watch?v=q5zacHFzqwE) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-03.html) |
+| 04 | Métodos y parámetros | 07:02 | [Ver video](https://www.youtube.com/watch?v=QULdRkWInEk) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-04.html) |
+| 05 | Clases, objetos y constructores | 07:20 | [Ver video](https://www.youtube.com/watch?v=LI0jqFQd_1Q) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-05.html) |
+| 06 | Encapsulación y validación | 06:57 | [Ver video](https://www.youtube.com/watch?v=VNrOLX8tkeI) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-06.html) |
+| 07 | Arreglos y colecciones | 07:22 | [Ver video](https://www.youtube.com/watch?v=iQ70uHn4g9I) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-07.html) |
+| 08 | Proyecto final: registro de estudiantes | 08:26 | [Ver video](https://www.youtube.com/watch?v=4dYG0xN6whU) | [Abrir editor con codigo](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-08.html) |
 
-Los videos y los enlaces directos a las prácticas estarán disponibles junto a cada lección una vez publicados.
+## Contenidos y ejercicios
 
-## Lecciones
+### Lección 1. Introducción y primer programa en Java
 
-### Lección 1. Primeros pasos con Java (6 min)
+**Qué aprenderás:** Qué es programar, qué es Java y cómo mostrar mensajes. Conceptos: System.out.println, secuencia de instrucciones.
 
-Empezaremos por entender qué es programar, qué es Java y cómo mostrar nuestro primer mensaje en pantalla con `System.out.println`.
+**Práctica:** Personaliza el mensaje de bienvenida e imprime una frase sobre tu pasatiempo.
 
-**Práctica:** cambia el mensaje de bienvenida y escribe una frase sobre uno de tus pasatiempos.
+**Recursos:** [Video](https://www.youtube.com/watch?v=XTbDYVRROxg) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-01.html) | [Código inicial](starter-files/lesson-01-hello-world/Main.java) | [Solución](completed-examples/lesson-01-hello-world/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-01-hello-world/Main.java) · [Ejemplo resuelto](completed-examples/lesson-01-hello-world/Main.java)
+### Lección 2. Variables, tipos de datos y operadores
 
-### Lección 2. Variables, tipos de datos y operadores (8 min)
+**Qué aprenderás:** Datos String, int, double, boolean y operaciones sencillas. Conceptos: Variables, tipos y expresiones.
 
-Aprenderemos a guardar información con `String`, `int`, `double` y `boolean`, y a realizar cálculos sencillos.
+**Práctica:** Cambia el nombre y las notas de un estudiante; calcula puntos ganados.
 
-**Práctica:** añade una nota y calcula el resultado de sumarla con otra.
+**Recursos:** [Video](https://www.youtube.com/watch?v=ZJA2KTzY1jE) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-02.html) | [Código inicial](starter-files/lesson-02-variables/Main.java) | [Solución](completed-examples/lesson-02-variables/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-02-variables/Main.java) · [Ejemplo resuelto](completed-examples/lesson-02-variables/Main.java)
+### Lección 3. Condiciones y bucles
 
-### Lección 3. Condiciones y bucles (8 min)
+**Qué aprenderás:** Decisiones if/else y repeticiones con for y while. Conceptos: if, else, for y while.
 
-Usaremos `if` y `else` para tomar decisiones. También veremos cómo repetir instrucciones con `for` y `while`.
+**Práctica:** Prueba una nota aprobatoria y otra desaprobatoria; cambia el número de repeticiones.
 
-**Práctica:** prueba distintas notas y observa cuándo el programa muestra el mensaje de aprobado.
+**Recursos:** [Video](https://www.youtube.com/watch?v=q5zacHFzqwE) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-03.html) | [Código inicial](starter-files/lesson-03-control-flow/Main.java) | [Solución](completed-examples/lesson-03-control-flow/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-03-control-flow/Main.java) · [Ejemplo resuelto](completed-examples/lesson-03-control-flow/Main.java)
+### Lección 4. Métodos y parámetros
 
-### Lección 4. Métodos y entrada de datos (7 min)
+**Qué aprenderás:** Métodos reutilizables, parámetros, retorno y entrada con Scanner. Conceptos: Métodos, parámetros, return, Scanner.
 
-Crearemos métodos para reutilizar instrucciones y utilizaremos `Scanner` para leer datos escritos por el usuario.
+**Práctica:** Ingresa otro nombre y edad, y comprueba el mensaje que muestra el programa.
 
-**Práctica:** introduce un nombre y una edad, y personaliza el mensaje que devuelve el programa.
+**Recursos:** [Video](https://www.youtube.com/watch?v=QULdRkWInEk) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-04.html) | [Código inicial](starter-files/lesson-04-methods-input/Main.java) | [Solución](completed-examples/lesson-04-methods-input/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-04-methods-input/Main.java) · [Ejemplo resuelto](completed-examples/lesson-04-methods-input/Main.java)
+### Lección 5. Clases, objetos y constructores
 
-### Lección 5. Clases y objetos (8 min)
+**Qué aprenderás:** Modelado de un estudiante con atributos, métodos y constructor. Conceptos: class, new, constructor, atributos.
 
-Conoceremos la programación orientada a objetos creando una clase `Estudiante` con atributos, constructor y métodos.
+**Práctica:** Crea un nuevo objeto Estudiante con nombre y nota distintos.
 
-**Práctica:** crea un segundo estudiante con datos diferentes y muestra su información.
+**Recursos:** [Video](https://www.youtube.com/watch?v=LI0jqFQd_1Q) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-05.html) | [Código inicial](starter-files/lesson-05-classes-objects/Main.java) | [Solución](completed-examples/lesson-05-classes-objects/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-05-classes-objects/Main.java) · [Ejemplo resuelto](completed-examples/lesson-05-classes-objects/Main.java)
+### Lección 6. Encapsulación y validación
 
-### Lección 6. Encapsulación (7 min)
+**Qué aprenderás:** Atributos privados, getters, setters y validación de notas. Conceptos: private, getters, setters, validación.
 
-Veremos por qué algunos atributos se declaran `private` y cómo usar getters y setters para consultar y modificar datos de forma controlada.
+**Práctica:** Intenta guardar una nota superior a 20 y verifica el resultado de la validación.
 
-**Práctica:** intenta asignar una nota fuera del rango permitido y comprueba cómo responde el programa.
+**Recursos:** [Video](https://www.youtube.com/watch?v=VNrOLX8tkeI) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-06.html) | [Código inicial](starter-files/lesson-06-encapsulation/Main.java) | [Solución](completed-examples/lesson-06-encapsulation/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-06-encapsulation/Main.java) · [Ejemplo resuelto](completed-examples/lesson-06-encapsulation/Main.java)
+### Lección 7. Arreglos y colecciones
 
-### Lección 7. Arreglos y cadenas de texto (9 min)
+**Qué aprenderás:** Arreglos de objetos y recorrido para obtener un promedio. Conceptos: Arreglos, for-each, String.
 
-Aprenderemos a reunir varios objetos `Estudiante` en un arreglo, recorrerlos y trabajar con nombres y notas.
+**Práctica:** Agrega un estudiante al arreglo y vuelve a calcular el promedio.
 
-**Práctica:** agrega otro estudiante y calcula el promedio de los registros.
+**Recursos:** [Video](https://www.youtube.com/watch?v=iQ70uHn4g9I) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-07.html) | [Código inicial](starter-files/lesson-07-arrays-strings/Main.java) | [Solución](completed-examples/lesson-07-arrays-strings/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-07-arrays-strings/Main.java) · [Ejemplo resuelto](completed-examples/lesson-07-arrays-strings/Main.java)
+### Lección 8. Proyecto final: registro de estudiantes
 
-### Lección 8. Proyecto final: registro de estudiantes (7 min)
+**Qué aprenderás:** Programa con menú para registrar, buscar y consultar estudiantes. Conceptos: Integración de clases, arreglos, métodos y Scanner.
 
-Reuniremos lo aprendido para crear un programa con un menú que permita registrar estudiantes, buscarlos por nombre y consultar sus notas. Terminaremos repasando errores comunes y buenas prácticas.
+**Práctica:** Registra dos estudiantes, búscalos y calcula el promedio; prueba una nota inválida.
 
-**Práctica:** registra dos estudiantes, búscalos y verifica sus promedios.
+**Recursos:** [Video](https://www.youtube.com/watch?v=4dYG0xN6whU) | [Práctica precargada](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/practice/lesson-08.html) | [Código inicial](starter-files/lesson-08-final-project/Main.java) | [Solución](completed-examples/lesson-08-final-project/Main.java)
 
-**Material:** [Código inicial](starter-files/lesson-08-final-project/Main.java) · [Ejemplo resuelto](completed-examples/lesson-08-final-project/Main.java)
+## Cómo utilizar el material
 
-## Recursos del curso
+1. Mira los videos en el orden indicado. Cada tema se apoya en los conceptos del anterior.
+2. Abre la práctica de cada lección; el código inicial se cargará dentro del editor Java en línea.
+3. Modifica el programa y ejecútalo. Intenta resolver el reto antes de consultar la solución.
+4. En la lección final, registra estudiantes, busca nombres y calcula sus promedios.
 
-Los archivos de `starter-files` contienen los ejercicios para completar; en `completed-examples` encontrarás las soluciones. La carpeta `scripts` reúne los guiones de las lecciones y el material utilizado para prepararlas.
+Los archivos en `starter-files/` son ejercicios iniciales; los de `completed-examples/` contienen soluciones. `scripts/` agrupa los guiones, pruebas de verificación, descripciones para YouTube y la lista de enlaces. Las prácticas utilizan OneCompiler en el navegador mediante GitHub Pages.
 
-## Elaboración
+## Evaluación formativa
 
-Curso preparado para **Desarrollo de Aplicaciones Open Source (1ASI0729)**, sección **16692**, ciclo **2026-20**, de la carrera de Ingeniería de Software de la **Universidad Peruana de Ciencias Aplicadas (UPC)**.
+El estudiante completa los retos de las primeras siete clases y comprueba su aprendizaje con el registro final: crear dos estudiantes, mostrarlos, buscar uno y calcular el promedio. Como comprobación adicional, debe intentar registrar una nota fuera de 0 a 20 y observar el mensaje de validación. Las soluciones del repositorio permiten autocorregirse.
 
-**Equipo: TechMakers**
+## Elaboración y colaboración
 
-- Alvar Lucas Córdova
-- Sunio Danilo Landa Sánchez
-- Giuseppe Adrián Villanueva Rodríguez
-- Diego Rances Rojas Huaranga
-- Pierre Alessandro Mendoza Boluarte
+Proyecto de la UPC, curso **Desarrollo de Aplicaciones Open Source (1ASI0729)**, NRC **16692**, ciclo **2026-20**. Equipo: **TechMakers**. La coordinación del plan de curso y la integración final del repositorio corresponden a **Alvar Lucas Córdova**, Team Leader.
 
-Los avances del curso y las aportaciones de sus integrantes se registran en el historial de GitHub conforme se desarrolla el material.
+Integrantes del equipo:
+
+- **Alvar Lucas Córdova** — coordinación y consolidación del material de entrega.
+- **Giuseppe Adrián Villanueva Rodríguez** — colaboración en el trabajo del curso, comunicada por el equipo.
+- **Diego Rances Rojas Huaranga** — colaboración en el trabajo del curso, comunicada por el equipo.
+- **Sunio Danilo Landa Sánchez** — integrante del equipo; participación individual detallada por el coordinador en el informe correspondiente.
+- **Pierre Alessandro Mendoza Boluarte** — integrante del equipo; participación individual detallada por el coordinador en el informe correspondiente.
+
+Las responsabilidades específicas y notas individuales se documentan en el **Participant Performance Report**, contrastando tareas realizadas y evidencia real. Los commits publicados pueden revisarse en el [historial de GitHub](https://github.com/TechMakers-upc/java-fundamentals-course-techmakers/commits/main/). No se atribuyen commits a estudiantes que no los hayan efectuado.
+
+## Referencias de entrega
+
+- [Repositorio del curso](https://github.com/TechMakers-upc/java-fundamentals-course-techmakers)
+- [Lecciones en YouTube](https://www.youtube.com/@AlvarLucasCordova-xy4ib) (los enlaces exactos están en la tabla)
+- [Prácticas de Java en línea](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/)
+
