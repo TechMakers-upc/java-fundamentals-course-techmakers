@@ -117,3 +117,36 @@ Las responsabilidades específicas y notas individuales se documentan en el **Pa
 - [Lecciones en YouTube](https://www.youtube.com/@AlvarLucasCordova-xy4ib) (los enlaces exactos están en la tabla)
 - [Prácticas de Java en línea](https://techmakers-upc.github.io/java-fundamentals-course-techmakers/)
 
+
+## Pruebas automatizadas del curso
+
+El curso cuenta con pruebas automatizadas que permiten
+comprobar los ejemplos de las ocho lecciones de Java.
+
+### ¿Qué se verifica?
+
+- Compilación de los archivos Java iniciales y completos.
+- Variables, operadores y estructuras de control.
+- Métodos, clases, objetos y constructores.
+- Encapsulación y validaciones.
+- Arreglos y cálculo de promedios.
+- Registro, búsqueda y consulta de estudiantes.
+- Manejo de entradas incorrectas en el proyecto final.
+
+### Ejecutar las pruebas
+
+Para los desarrolladores que mantienen el repositorio:
+
+```bash
+bash scripts/test-java-examples.sh
+```
+
+Las pruebas también se ejecutan mediante GitHub Actions.
+
+**Documentación:** `scripts/testing-cases.txt`
+
+**Responsable de esta contribución técnica:** Diego Rances Rojas Huaranga.
+
+> Estas pruebas son herramientas de desarrollo.
+> Los estudiantes no necesitan instalar Java:
+> pueden realizar todas las prácticas en el navegador.
